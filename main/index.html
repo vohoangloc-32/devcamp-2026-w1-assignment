@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Hoàng Lộc | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --bg: #f1f5f9;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: #1e293b;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 40px;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--primary);
+            letter-spacing: -1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: var(--secondary);
+            margin-top: 10px;
+        }
+
+        /* Content Sections */
+        .section {
+            background: var(--card-bg);
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            border-left: 8px solid var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge {
+            background: #dbeafe;
+            color: var(--primary);
+            font-size: 0.8rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .content-text {
+            color: #475569;
+            font-size: 1.05rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+
+        em { color: var(--primary); font-style: normal; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Võ Hoàng Lộc</h1>
+            <p>Computer Science Student @ HCMUT (Bách Khoa TP.HCM)</p>
+            <div style="margin-top: 15px;">
+                <span class="badge">Lập trình viên tương lai</span>
+                <span class="badge">Yêu Game</span>
+                <span class="badge">Fan One Piece</span>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>1. Personal Portfolio</h2>
+            <p class="content-text">
+                Chào mừng bạn đến với không gian nhỏ của mình. Là một sinh viên <em>Khoa học Máy tính</em> năm nhất, mình đang bắt đầu hành trình chinh phục thế giới code. Mục tiêu của mình là trở thành một Full-stack Developer hoặc Game Dev chuyên nghiệp trong tương lai.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>2. Review Sách: Giải tích 1</h2>
+            <p class="content-text">
+                Cuốn sách "gối đầu giường" nhưng cũng là nỗi khiếp sợ của mọi sinh viên Bách Khoa. Từ <em>Giới hạn, Đạo hàm</em> đến <em>Tích phân hàm một biến</em>, cuốn sách này rèn luyện cho mình tư duy logic cực kỳ khắt khe. Dù khó, nhưng nó là nền tảng không thể thiếu cho các thuật toán sau này.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>3. Phim yêu thích: One Piece</h2>
+            <p class="content-text">
+                Không chỉ là một bộ anime, <em>One Piece</em> là hành trình của ý chí và sự tự do. Mình cực kỳ ấn tượng với cách tác giả Oda xây dựng thế giới và tình đồng đội của băng Mũ Rơm. Luffy dạy mình rằng: <strong>"Dù ước mơ có điên rồ đến đâu, chỉ cần kiên trì là sẽ chạm tới."</strong>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>4. Topic: Game Development</h2>
+            <p class="content-text">
+                Game không chỉ để giải trí, nó là sự kết hợp hoàn hảo giữa <em>nghệ thuật, âm thanh và toán học</em>. Mình đang tìm hiểu về Engine Unity và cách điều khiển nhân vật bằng C#. Niềm vui lớn nhất là nhìn thấy những dòng code của mình biến thành những chuyển động trên màn hình.
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2026 Võ Hoàng Lộc - Made with HTML/CSS</p>
+        </footer>
+    </div>
+
+</body>
+</html>
